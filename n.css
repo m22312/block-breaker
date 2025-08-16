@@ -1,0 +1,192 @@
+body {
+    background-image: url('images/sky.png');
+
+    
+    padding: 10px 10px 10px 10px;
+    background-position: center top;
+    /* 画像の表示位置を指定 */
+    background-size: cover;
+    /* 画像のサイズを指定  */
+    width: 90%;
+    /* 横幅のサイズを指定  */
+    height: 700px;
+    /* 縦幅のサイズを指定  */
+    padding: 5%;
+    margin-top: -5%;
+}
+
+
+
+#aaa {   /*操作方法*/
+    background: #6bb6ff;
+    /*背景色の指定*/
+    border: #6bb6ff 2px dashed;
+    /*境界線の指定*/
+    box-shadow: 0 0 0 6px #f3efef;
+    /*境界線の外側の指定*/
+
+    outline-width: 300px;
+    margin: 0px 400px 400px 400px;
+    padding: 25px;
+}
+
+
+.xxx23 {    /*ブロック崩し*/
+    font-size: 1.5em;
+    /* フォントサイズ */
+    font-weight: bold;
+    /* フォント太さ */
+    padding-top: .10em;
+    padding-bottom: .20em;
+    
+    margin-bottom: 1em;
+    position: relative;
+    color: #0d0d0d;
+    /* フォント色 */
+}
+
+
+#howto {
+    padding-top: 5px;
+}
+
+/* solid012 */
+.button_solid012 a {
+    background: rgba(10, 11, 11, 0.4);
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #ffffff;
+    /*文字色*/
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border: 2px solid #000;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.button_solid012 a:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #6bb6ff;
+    z-index: -1;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.button_solid012 a:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translate3d(0, 0.40rem, -1rem);
+    transform: translate3d(0, 0.40rem, -1rem);
+    border: 2px solid #000;
+    border-radius: inherit;
+    background: #f7f4f4;
+    /*シャドウ*/
+    -webkit-box-shadow: 0 0.6rem 0 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0.4rem 0 0 rgb(0 0 0 / 20%);
+    z-index: -2;
+}
+
+.button_solid012 a i {
+    position: absolute;
+    right: 9px;
+}
+
+.button_solid012 a:hover {
+    transform: translate3d(0, 0.2rem, -1rem);
+}
+
+.button_solid012 a:hover:after {
+    transform: translate3d(0, 0.2rem, -1rem);
+    box-shadow: 0 0.2rem 0 0 rgb(0 0 0 / 20%);
+}
+
+
+canvas {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.button_solid010 a {
+    background: rgba(10, 11, 11, 0.4);
+    border-radius: 3px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 10px 25px;
+    color: #ffffff;
+    /*文字色*/
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border: 2px solid #000;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.button_solid010 a:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #017a15;
+    z-index: -1;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.button_solid010 a:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translate3d(0, 0.40rem, -1rem);
+    transform: translate3d(0, 0.40rem, -1rem);
+    border: 2px solid #000;
+    border-radius: inherit;
+    background: #f7f4f4;
+    /*シャドウ*/
+    -webkit-box-shadow: 0 0.6rem 0 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 0.4rem 0 0 rgb(0 0 0 / 20%);
+    z-index: -2;
+}
+
+.button_solid010 a i {
+    position: absolute;
+    right: 9px;
+}
+
+.button_solid010 a:hover {
+    transform: translate3d(0, 0.2rem, -1rem);
+}
+
+.button_solid010 a:hover:after {
+    transform: translate3d(0, 0.2rem, -1rem);
+    box-shadow: 0 0.2rem 0 0 rgb(0 0 0 / 20%);
+}
