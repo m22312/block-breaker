@@ -1,5 +1,5 @@
 body {
-    background-image: url('sky.png');
+    background-image: url('images/sky.png');
 
     
     padding: 10px 10px 10px 10px;
@@ -190,4 +190,5 @@ canvas {
     transform: translate3d(0, 0.2rem, -1rem);
     box-shadow: 0 0.2rem 0 0 rgb(0 0 0 / 20%);
 }
+
 
